@@ -1,0 +1,28 @@
+messages:
+  # You can use the following placeholders:
+  # %reported% - player who is reported
+  # %reporter% - player who reports
+  # %reason% - the report reason
+  
+  # Sent when the command is used incorrectly. Cannot use any of the placeholders.
+  report-syntax: "&c/report <player> <reason>"  
+  #Sent to players who have the "report.notify" permission.
+  report-notification: "&4&l[REPORTS] &c%reported% &6was reported by &c%reporter% &6for &c%reason%&6."
+  #Sent to the reporter upon report.
+  report-message: "&aYou have reported &e%reported% &afor &e%reason%&a."
+  #Sent to the player attempting to list reports when there are none to list.
+  #NO PLACEHOLDERS WORK HERE.
+  no-reports: "&aNo reports."
+  #This is printed in chat once per report during the listing of reports. 
+  report-list: "&6Reporter: &c%reporter% &8| &6Reported: &c%reported% &8| &6Reason: &c%reason%"
+  #Sent to the player who clears reports. 
+  #NO PLACEHOLDERS WILL WORK HERE.
+  report-clear-message: "&aYou cleared reports."
+
+# Should players with the permission 'report.notify' bypass being reported?
+staff-bypass: false
+
+
+# DO NOT TOUCH THIS
+version: 3
+  
