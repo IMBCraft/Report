@@ -19,7 +19,7 @@ public class Main extends JavaPlugin {
 
 	public static ArrayList<Report> reports = new ArrayList<>();
 
-	private int configVersion = 3;
+	private int configVersion = 1;
 	private boolean staffBypass;
 	
 	@Override
